@@ -1,0 +1,7 @@
+kaggle
+pandas
+numpy
+requests
+matplotlib
+seaborn
+# Add any other packages you need for your application here

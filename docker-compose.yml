@@ -1,0 +1,84 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: postgres_database
+    networks:
+      - my_network
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: rukevweubioworo@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    networks:
+      - my_network
+    ports:
+      - "8080:80"
+
+  mageai:
+    image: mageai/mageai:latest
+    container_name: mage
+    networks:
+      - my_network
+    ports:
+      - "6789:6789"
+
+    environment:
+      - DATABASE_URL=postgres://root:root@:5432/postgres_database
+    depends_on:
+      - postgres
+
+networks:
+  my_network:
+    driver: bridge
+    
+
+
+#     version: '3.8'
+
+# services:
+#   postgres:
+#     image: postgres:latest
+#     container_name: postgres_db
+#     environment:
+#       POSTGRES_USER: root
+#       POSTGRES_PASSWORD: root
+#       POSTGRES_DB: postgres_database
+#     networks:
+#       - my_network
+#     ports:
+#       - "5432:5432"
+
+#   pgadmin:
+#     image: dpage/pgadmin4:latest
+#     container_name: pgadmin
+#     environment:
+#       PGADMIN_DEFAULT_EMAIL: rukevweubioworo@gmail.com
+#       PGADMIN_DEFAULT_PASSWORD: admin
+#     networks:
+#       - my_network
+#     ports:
+#       - "8080:80"
+
+#   mageai:
+#     image: mageai/mageai:latest
+#     container_name: mage
+#     networks:
+#       - my_network
+#     ports:
+#       - "6789:6789"
+#     environment:
+#       - DATABASE_URL=postgres://root:root@192.168.1.9:5432/postgres_database
+#     depends_on:
+#       - postgres
+
+# networks:
+#   my_network:
+#     driver: bridge

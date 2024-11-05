@@ -1,0 +1,1 @@
+# ETLpipeline_design_from_kaggle_api_snowflake_andorcgestrated_with_mageai

@@ -46,6 +46,7 @@ The data was extracted and cleaned, then loaded into Snowflake for analysis and 
 ![load_data_snowflake](https://github.com/rukevweubio/ETLpipeline_design_from_kaggle_api_snowflake_andorchestrated_with_mageai/blob/main/Screenshot%20(217).png)
 ### pipeline design
 ![pipeline_design_mageai](https://github.com/rukevweubio/ETLpipeline_design_from_kaggle_api_snowflake_andorchestrated_with_mageai/blob/main/Screenshot%20(216).png)
+![pipeline_dsign](https://github.com/rukevweubio/ETLpipeline_design_from_kaggle_api_snowflake_andorchestrated_with_mageai/blob/main/Screenshot%20(215).png)
 
 
    

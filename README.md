@@ -36,6 +36,12 @@ Once the data was cleaned, it was loaded into a PostgreSQL database, thus comple
 MageAI was utilized as the orchestration tool for the ETL (Extract, Transform, Load) process. MageAI’s data loader block was used to extract data from Kaggle via the Kaggle API. The extraction process was automated and orchestrated within MageAI, ensuring efficient data retrieval from Kaggle.
 Once the data was successfully extracted, MageAI’s functionality was leveraged to load the processed data into a PostgreSQL database. This involved cleaning and transforming the data, ensuring that it was structured properly for storage and subsequent analysis.
 ![loaded_data_postgres_database](https://github.com/rukevweubio/ETLpipeline_design_from_kaggle_api_snowflake_andorchestrated_with_mageai/blob/main/Screenshot%20(200).png)
+###  Data Loading to Snowflake with MageAI
+The data was extracted and cleaned, then loaded into Snowflake for analysis and visualization. The process included:
+1. Table Creation in Snowflake to store the data.
+2. Connection Setup in MageAI using Snowflake credentials.
+3. Data Transfer from PostgreSQL to Snowflake via MageAI.
+4. Data Analysis and Visualization in Snowflake for insights.
 
 
    

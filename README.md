@@ -43,5 +43,7 @@ The data was extracted and cleaned, then loaded into Snowflake for analysis and 
 3. Data Transfer from PostgreSQL to Snowflake via MageAI.
 4. Data Analysis and Visualization in Snowflake for insights.
 
+![load_data_snowflake](https://github.com/rukevweubio/ETLpipeline_design_from_kaggle_api_snowflake_andorchestrated_with_mageai/blob/main/Screenshot%20(217).png)
+
 
    

@@ -16,3 +16,13 @@ The dataset used in this project typically contains information on individual bi
 5. Start Station: The bike station where the trip began.
 6. End Station: The bike station where the trip ended.
 7. User Type: Whether the user is a "Subscriber" or a "Customer."
+
+#### Tech stack for the project 
+1. python for scripting
+2. mageai for work flow orchestration
+3. docker for conatainerization
+4. pgadmin for postgres quuery
+5. postgres database as datalake
+6. snowflake data warehouse
+7. snowsql for quarying
+   

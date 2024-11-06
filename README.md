@@ -32,5 +32,10 @@ The extraction process was implemented using Python, where data was retrieved pr
 Once the data was cleaned, it was loaded into a PostgreSQL database, thus completing the ETL (Extract, Transform, Load) pipeline. The data was transformed within Python as part of the process, ensuring that it was structured appropriately for efficient querying and analysis within the database.
 ![load_data_postgres_database](https://github.com/rukevweubio/ETLpipeline_design_from_kaggle_api_snowflake_andorchestrated_with_mageai/blob/main/Screenshot%20(198).png)
 
+###  Data Extraction and Loading with MageAI
+MageAI was utilized as the orchestration tool for the ETL (Extract, Transform, Load) process. MageAI’s data loader block was used to extract data from Kaggle via the Kaggle API. The extraction process was automated and orchestrated within MageAI, ensuring efficient data retrieval from Kaggle.
+Once the data was successfully extracted, MageAI’s functionality was leveraged to load the processed data into a PostgreSQL database. This involved cleaning and transforming the data, ensuring that it was structured properly for storage and subsequent analysis.
+![loaded_data_postgres_database](https://github.com/rukevweubio/ETLpipeline_design_from_kaggle_api_snowflake_andorchestrated_with_mageai/blob/main/Screenshot%20(200).png)
+
 
    

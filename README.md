@@ -30,6 +30,7 @@ The dataset used in this project typically contains information on individual bi
 The data for this project was sourced from Kaggle through their public API, utilizing an API key for secure access. The API key was downloaded and stored in the directory of the Python script to facilitate the data extraction process.
 The extraction process was implemented using Python, where data was retrieved programmatically from Kaggle's API. Following this, the dataset underwent a thorough cleaning process using Python’s data manipulation libraries. This step involved handling missing values, removing duplicates, and standardizing the dataset to ensure consistency and accuracy.
 Once the data was cleaned, it was loaded into a PostgreSQL database, thus completing the ETL (Extract, Transform, Load) pipeline. The data was transformed within Python as part of the process, ensuring that it was structured appropriately for efficient querying and analysis within the database.
+![load_data_postgres_database](https://github.com/rukevweubio/ETLpipeline_design_from_kaggle_api_snowflake_andorchestrated_with_mageai/blob/main/Screenshot%20(198).png)
 
 
    
